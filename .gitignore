@@ -1,6 +1,9 @@
 *
 !.config
 !.config/nvim
+!.config/nvim/*
 !.config/alacritty
+!.config/alacritty/*
 !.tmux
+!.tmux/*
 !.tmux.conf
