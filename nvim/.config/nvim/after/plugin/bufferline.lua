@@ -16,5 +16,6 @@ require('bufferline').setup({
         show_tab_indicators = false,
         enforce_regular_tabs = false,
         move_wraps_at_ends = false,
+        separator_style = { '', '' }
     }
 })
