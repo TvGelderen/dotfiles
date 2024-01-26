@@ -1,6 +1,6 @@
 require("tokyonight").setup({
 	style = "night",
-	transparent = true,
+	transparent = false,
 	terminal_colors = true,
 	styles = {
 		comments = { italic = true },
@@ -8,8 +8,8 @@ require("tokyonight").setup({
 		functions = {},
 		variables = {},
 
-		sidebars = "transparent",
-		floats = "transparent",
+		sidebars = "dark",
+		floats = "dark",
 	},
 	sidebars = { "qf", "help", "nvim-tree", "undotree", "packer" },
 	hide_inactive_statusline = false,
