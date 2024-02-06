@@ -6,8 +6,11 @@ end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-  ensure_installed = { 'tsserver', 'eslint', 'volar', 'cssls', 'tailwindcss', 'rust_analyzer', 'gopls', 'templ' },
+  ensure_installed = { 'tsserver', 'eslint', 'volar', 'cssls', 'tailwindcss', 'rust_analyzer', 'gopls', 'templ', 'html', 'jsonls', 'yamlls' },
   handlers = {
     lsp_zero.default_setup,
   },
 })
+
+vim.keymap.set("n", "<leader>f", function() vim.lsp.buf.format() end)
+vim.keymap.set("n", "<leader>lr", ":LspRestart<CR>")
