@@ -119,5 +119,7 @@ export PATH=$PATH:/home/timen/nodejs/bin
 # enable go
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/home/timen/go/bin
+# enable keymapp
+export PATH=$PATH:/usr/local/bin/keymapp
 
 export XDG_DATA_DIRS=$XDG_DATA_DIRS:/home/timen/.local/share/applications
