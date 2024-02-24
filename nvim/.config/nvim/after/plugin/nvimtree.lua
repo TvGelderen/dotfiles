@@ -5,7 +5,7 @@ vim.opt.termguicolors = true
 
 require('nvim-tree').setup({
     filters = {
-        git_ignored = false,  
+        git_ignored = false,
     },
 })
 

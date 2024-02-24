@@ -1,8 +1,14 @@
 vim.g.mapleader = " "
 
+vim.keymap.set("i", "jk", "<Esc>")
+
 vim.keymap.set("n", "<C-j>", ":bprev<CR>")
 vim.keymap.set("n", "<C-k>", ":bnext<CR>")
 vim.keymap.set("n", "<C-q>", ":bdelete<CR>")
+-- Closes buffer without closing window
+vim.keymap.set("n", "<leader>q", ":bp<bar>sp<bar>bn<bar>bd<CR>")
+
+vim.keymap.set("n", "<Tab>", "<C-w>w")
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")

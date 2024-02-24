@@ -6,7 +6,7 @@ end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-  ensure_installed = { 'tsserver', 'eslint', 'volar', 'cssls', 'tailwindcss', 'rust_analyzer', 'gopls', 'templ', 'html', 'jsonls', 'yamlls' },
+  ensure_installed = { 'tsserver', 'eslint', 'volar', 'cssls', 'tailwindcss', 'gopls', 'templ', 'html', 'jsonls', 'yamlls' },
   handlers = {
     lsp_zero.default_setup,
   },

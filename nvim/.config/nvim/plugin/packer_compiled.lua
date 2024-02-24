@@ -89,11 +89,6 @@ _G.packer_plugins = {
     path = "/home/timen/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
   },
-  catppuccin = {
-    loaded = true,
-    path = "/home/timen/.local/share/nvim/site/pack/packer/start/catppuccin",
-    url = "https://github.com/catppuccin/nvim"
-  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/timen/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
