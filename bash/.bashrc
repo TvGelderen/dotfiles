@@ -46,4 +46,4 @@ export PATH=$PATH:/usr/local/bin/neovide
 
 export XDG_DATA_DIRS=$XDG_DATA_DIRS:/home/timen/.local/share/applications
 
-export LS_COLORS=$LS_COLORS:'di=38;5;105;1m';
+export LS_COLORS=$LS_COLORS:'di=38;5;105;1';
