@@ -14,7 +14,7 @@ font:
 
 colors:
   primary:
-    background: '0x16161e'
+    background: '0x1a1b26'
     foreground: '0xc0caf5'
 
   normal:
@@ -43,9 +43,6 @@ colors:
 
 bell:
   duration: 0
-
-cursor:
-  blinking: On
 
 key_bindings:
   - { key: F11, action: ToggleFullscreen }
