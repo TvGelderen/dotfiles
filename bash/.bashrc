@@ -43,6 +43,7 @@ export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/home/timen/go/bin
 export PATH=$PATH:/usr/local/bin/keymapp
 export PATH=$PATH:/usr/local/bin/neovide
+export PATH=$PATH:/usr/local/bin/openrgb
 
 export XDG_DATA_DIRS=$XDG_DATA_DIRS:/home/timen/.local/share/applications
 
