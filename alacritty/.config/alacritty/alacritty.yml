@@ -7,9 +7,9 @@ window:
 
 font:
   normal:
-    family: MartianMono Nerd Font
+    family: JetBrainsMono Nerd Font
   bold:
-    family: MartianMono Nerd Font
+    family: JetBrainsMono Nerd Font
     style: Bold
 
 colors:

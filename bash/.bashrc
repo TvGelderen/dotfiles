@@ -38,12 +38,11 @@ fi
 
 set -o vi
 
-export PATH=$PATH:/home/timen/nodejs/bin
-export PATH=$PATH:/usr/local/go/bin
-export PATH=$PATH:/home/timen/go/bin
-export PATH=$PATH:/usr/local/bin/keymapp
-export PATH=$PATH:/usr/local/bin/neovide
-export PATH=$PATH:/usr/local/bin/openrgb
+export PATH="$PATH:/usr/local/bin"
+export PATH="$PATH:/usr/local/bin/nvim-linux64/bin"
+export PATH="$PATH:/usr/local/bin/node-linux-x64/bin"
+export PATH="$PATH:/usr/local/go/bin"
+export PATH="$PATH:/home/tvgelderen/go/bin"
 
 export XDG_DATA_DIRS=$XDG_DATA_DIRS:/home/timen/.local/share/applications
 

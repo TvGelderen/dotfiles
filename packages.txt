@@ -67,7 +67,6 @@ colord
 colord-data
 console-setup
 console-setup-linux
-containerd.io
 coreutils
 cpio
 cpp
@@ -116,11 +115,6 @@ dmsetup
 dns-root-data
 dnsmasq-base
 docbook-xml
-docker-buildx-plugin
-docker-ce
-docker-ce-cli
-docker-ce-rootless-extras
-docker-compose-plugin
 dosfstools
 dpkg
 dpkg-dev
@@ -141,7 +135,6 @@ evolution-plugin-bogofilter
 evolution-plugin-pstimport
 evolution-plugins
 exfatprogs
-expressvpn
 fakeroot
 fdisk
 file
@@ -355,8 +348,6 @@ hoichess
 hostname
 htop
 hunspell-en-us
-hyper
-hyphen-en-us
 i965-va-driver:amd64
 ibus
 ibus-data
@@ -1514,8 +1505,6 @@ libzvbi0:amd64
 libzxing2:amd64
 linux-base
 linux-compiler-gcc-12-x86
-linux-headers-6.1.0-13-amd64
-linux-headers-6.1.0-13-common
 linux-headers-6.1.0-15-amd64
 linux-headers-6.1.0-15-common
 linux-headers-6.1.0-16-amd64
@@ -1523,7 +1512,6 @@ linux-headers-6.1.0-16-common
 linux-headers-6.1.0-17-amd64
 linux-headers-6.1.0-17-common
 linux-headers-amd64
-linux-image-6.1.0-13-amd64
 linux-image-6.1.0-15-amd64
 linux-image-6.1.0-16-amd64
 linux-image-6.1.0-17-amd64
@@ -1598,10 +1586,6 @@ perl-base
 perl-modules-5.36
 perl-openssl-defaults:amd64
 perl-tk
-pgadmin4
-pgadmin4-desktop
-pgadmin4-server
-pgadmin4-web
 pigz
 pinentry-curses
 pinentry-gnome3
@@ -1713,7 +1697,6 @@ sound-theme-freedesktop
 speech-dispatcher
 speech-dispatcher-audio-plugins:amd64
 speech-dispatcher-espeak-ng
-spotify-client
 ssl-cert
 stow
 sudo
