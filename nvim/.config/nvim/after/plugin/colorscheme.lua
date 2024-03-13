@@ -1,7 +1,7 @@
 if vim.g.neovide == true then
     require("tokyonight").setup({
         style = "night",
-        transparent = false,
+        transparent = true,
         terminal_colors = true,
         styles = {
             comments = { italic = true },

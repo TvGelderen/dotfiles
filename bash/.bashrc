@@ -44,6 +44,4 @@ export PATH="$PATH:/usr/local/bin/node-linux-x64/bin"
 export PATH="$PATH:/usr/local/go/bin"
 export PATH="$PATH:/home/tvgelderen/go/bin"
 
-export XDG_DATA_DIRS=$XDG_DATA_DIRS:/home/timen/.local/share/applications
-
 export LS_COLORS=$LS_COLORS:'di=38;5;105;1';
