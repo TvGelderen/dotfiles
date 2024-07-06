@@ -39,9 +39,12 @@ fi
 set -o vi
 
 export PATH="$PATH:/usr/local/bin"
-export PATH="$PATH:/usr/local/bin/nvim-linux64/bin"
-export PATH="$PATH:/usr/local/bin/node-linux-x64/bin"
+export PATH="$PATH:/usr/local/bin/nvim-linux-x64/bin"
 export PATH="$PATH:/usr/local/go/bin"
 export PATH="$PATH:/home/tvgelderen/go/bin"
 
 export LS_COLORS=$LS_COLORS:'di=38;5;105;1';
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

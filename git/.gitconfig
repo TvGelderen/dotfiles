@@ -4,4 +4,4 @@
 	name = Timen van Gelderen
 	email = thvangelderen@gmail.com
 [credential]
-	helper = store --file ~/.git-credentials
+	helper = store
