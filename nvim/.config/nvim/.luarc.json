@@ -1,0 +1,10 @@
+{
+    "diagnostics.globals": [
+        "vim",
+        "css",
+        "filetypes"
+    ],
+    "diagnostics.disable": [
+        "unused-local"
+    ]
+}

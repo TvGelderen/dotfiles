@@ -94,11 +94,6 @@ _G.packer_plugins = {
     path = "/home/tvgelderen/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-  ["dracula.nvim"] = {
-    loaded = true,
-    path = "/home/tvgelderen/.local/share/nvim/site/pack/packer/start/dracula.nvim",
-    url = "https://github.com/Mofiqul/dracula.nvim"
-  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/tvgelderen/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -118,6 +113,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/tvgelderen/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["none-ls-extras.nvim"] = {
+    loaded = true,
+    path = "/home/tvgelderen/.local/share/nvim/site/pack/packer/start/none-ls-extras.nvim",
+    url = "https://github.com/nvimtools/none-ls-extras.nvim"
+  },
+  ["none-ls.nvim"] = {
+    loaded = true,
+    path = "/home/tvgelderen/.local/share/nvim/site/pack/packer/start/none-ls.nvim",
+    url = "https://github.com/nvimtools/none-ls.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -163,6 +168,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/tvgelderen/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["telescope-ui-select.nvim"] = {
+    loaded = true,
+    path = "/home/tvgelderen/.local/share/nvim/site/pack/packer/start/telescope-ui-select.nvim",
+    url = "https://github.com/nvim-telescope/telescope-ui-select.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
